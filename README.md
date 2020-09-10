@@ -1,6 +1,8 @@
-# ZaWarudo
+---
+layout: default
+---
 
-## Tools
+# Tools
 
 - [Github Markdown ToC](https://github.com/ekalinin/github-markdown-toc.go)
 
