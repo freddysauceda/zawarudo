@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Tools
 
 - [Github Markdown ToC](https://github.com/ekalinin/github-markdown-toc.go)
