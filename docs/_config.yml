@@ -43,7 +43,7 @@ plugins:
 repository: freddysauceda/zawarudo
 
 # Custom vars
-version: 1.1.0
+version: 1.0
 github:
   repo: https://github.com/freddysauceda/zawarudo
 google_analytics_id: #UA-XXXX-Y
