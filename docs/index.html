@@ -11,17 +11,21 @@ title: Home
   go up to the number in the _config.yml file then show in the older/newer block 
   afterwards.
 -->
+{% if paginator.previous_page != false %}
+<h1 class="post-title">
+  The Story So Far
+</h1>
+{% endif %}
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
-    <h1 class="post-title">
+    <h2 class="post-title">
       <a href="{{ post.url | absolute_url }}">
         {{ post.title }}
       </a>
-    </h1>
-
+    </h2>
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
     {{ post.content }}
   </div>
   {% endfor %}
